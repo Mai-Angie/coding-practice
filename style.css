@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container {
+    text-align: center;
+    padding: 0 5vw;
+    background-color: pink;
+}
+
+h1 {
+    color: blue;
+}
+
+
+.example {
+    font-weight: bold;
+}
+
+
+#state {
+    font-style: italic;
+}
