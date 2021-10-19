@@ -1,10 +1,41 @@
 body {
     margin: 0;
     padding: 0;
+box-sizing: border-box;
+width: 100vw;
 
+}
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-content: center;
 }
 
 
+#logo img{
+    border-radius: 50%;
+}
+nav ul {
+  text-align: right;
+  margin-right: 10vw;
+  display: flex;
+  list-style-type: none;
+  align-self: center;
+
+}
+
+nav ul li{
+    margin-left: 5vw;
+}
+
+a{
+ color: white;
+ text-decoration: none;   
+}
 .container {
     text-align: center;
     padding: 0 5vw;
